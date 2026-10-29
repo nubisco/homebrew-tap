@@ -2,26 +2,26 @@
 class Alter < Formula
   desc "Your second brain, running on your own machine"
   homepage "https://nubisco.io"
-  version "0.1.2"
+  version "0.1.3"
 
   on_macos do
     on_arm do
-      url "https://downloads.nubisco.io/alter/v0.1.2/alter-0.1.2-darwin-arm64.tar.gz"
-      sha256 "1e83deb4c96fb91bee03aaf6175ccd3c28ba4e0f447dfb0b0fa9abeac4be2d31"
+      url "https://downloads.nubisco.io/alter/v0.1.3/alter-0.1.3-darwin-arm64.tar.gz"
+      sha256 "22f73abe8b86e9b67ed8078bb42cfc95d666c5d6d3d1063f618c104a8d3ee6e9"
     end
     on_intel do
-      url "https://downloads.nubisco.io/alter/v0.1.2/alter-0.1.2-darwin-x64.tar.gz"
-      sha256 "c94927374c8a4f32196c23e4aeddd5411c3e3534209de4447eda4812fa91d410"
+      url "https://downloads.nubisco.io/alter/v0.1.3/alter-0.1.3-darwin-x64.tar.gz"
+      sha256 "1c6e3d55f1d470ce70c0d260e0f39d61e1a46ff87a6e1dd59cdf0700f3bacbe4"
     end
   end
   on_linux do
     on_arm do
-      url "https://downloads.nubisco.io/alter/v0.1.2/alter-0.1.2-linux-arm64.tar.gz"
-      sha256 "31cef40f1ee8c6e2ecd911ec325ab51cbba1ff509ac3efa6b6f68187df3b714d"
+      url "https://downloads.nubisco.io/alter/v0.1.3/alter-0.1.3-linux-arm64.tar.gz"
+      sha256 "a994abda01fcd3e22069dcbeb486b17663c7c3d792aedb6d7755a71fa4be1f17"
     end
     on_intel do
-      url "https://downloads.nubisco.io/alter/v0.1.2/alter-0.1.2-linux-x64.tar.gz"
-      sha256 "4f5e9adf97c380b23be840e668270c18e6db1949e101f5fd5593009b9dc6fc80"
+      url "https://downloads.nubisco.io/alter/v0.1.3/alter-0.1.3-linux-x64.tar.gz"
+      sha256 "e0f5a4c86ce6660bb7069bf0640c7b423e89eb5a3f1a4d8c306c71de0d1cfa91"
     end
   end
 
@@ -38,10 +38,9 @@ class Alter < Formula
 
   def caveats
     <<~EOS
-      Keep Alter running from every login:
-        brew services start alter
-      Then open it in your browser to set it up:
-        alter ui
+      Set Alter up, step by step:
+        alter setup
+      It offers to start Alter at every login, through brew services.
       Update it with brew upgrade alter.
     EOS
   end
