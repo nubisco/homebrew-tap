@@ -2,26 +2,26 @@
 class Alter < Formula
   desc "Your second brain, running on your own machine"
   homepage "https://nubisco.io"
-  version "0.1.4"
+  version "0.1.5"
 
   on_macos do
     on_arm do
-      url "https://downloads.nubisco.io/alter/v0.1.4/alter-0.1.4-darwin-arm64.tar.gz"
-      sha256 "a7aec8cead6ef66c88113ccbfb4eae522195a487bacffefa846674d833913d49"
+      url "https://downloads.nubisco.io/alter/v0.1.5/alter-0.1.5-darwin-arm64.tar.gz"
+      sha256 "82b039a783bd0268e935d838a02c04f303caaab6c39ddf4b3023eff9fd464207"
     end
     on_intel do
-      url "https://downloads.nubisco.io/alter/v0.1.4/alter-0.1.4-darwin-x64.tar.gz"
-      sha256 "feaef90bda3c56d7bb3f216799520606f3eaa362004585a0a40d04a7d1171c09"
+      url "https://downloads.nubisco.io/alter/v0.1.5/alter-0.1.5-darwin-x64.tar.gz"
+      sha256 "d623f270c449bb16120477b55138c5f77a98d6c42b7e59692527d781d61b1979"
     end
   end
   on_linux do
     on_arm do
-      url "https://downloads.nubisco.io/alter/v0.1.4/alter-0.1.4-linux-arm64.tar.gz"
-      sha256 "5ea3c3002604a76313ad4a22e49ec6c7f18303f44dfb0c57b1df7e723198ccb4"
+      url "https://downloads.nubisco.io/alter/v0.1.5/alter-0.1.5-linux-arm64.tar.gz"
+      sha256 "4f220d969f9e08bc1e8198875a9cdc65f8069affc96402a0e0f23e472bcd5979"
     end
     on_intel do
-      url "https://downloads.nubisco.io/alter/v0.1.4/alter-0.1.4-linux-x64.tar.gz"
-      sha256 "37f23cc7012389036d7c5796dab18e217e2feb7d5d69b0b012b46837681e2b1d"
+      url "https://downloads.nubisco.io/alter/v0.1.5/alter-0.1.5-linux-x64.tar.gz"
+      sha256 "ebacef2c6d79911eb83c0c8fe8d317dd6ac70dd141b24e05d8db80a9bbc3d876"
     end
   end
 
@@ -41,7 +41,7 @@ class Alter < Formula
       Set Alter up, step by step:
         alter setup
       It offers to start Alter at every login, through brew services.
-      Update it with brew upgrade alter.
+      Update it, and the Alter app, with alter update.
     EOS
   end
 
