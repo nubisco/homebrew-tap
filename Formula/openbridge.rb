@@ -2,8 +2,8 @@
 class Openbridge < Formula
   desc "Local-first home automation bridge, Homebridge-compatible"
   homepage "https://docs.nubisco.io/openbridge/"
-  url "https://registry.npmjs.org/@nubisco/openbridge/-/openbridge-1.6.0.tgz"
-  sha256 "18b745163a73f6b68a247bf8e75a9eada1f2d5c2be558170eb5322a3e06a5aef"
+  url "https://registry.npmjs.org/@nubisco/openbridge/-/openbridge-1.8.2.tgz"
+  sha256 "02b3ed360215d7d8e9abef1f31e9290909859556cd935138d029a61ccf081954"
   license "MIT"
 
   depends_on "node"
