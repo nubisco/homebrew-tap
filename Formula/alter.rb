@@ -2,22 +2,22 @@
 class Alter < Formula
   desc "Your second brain, running on your own machine"
   homepage "https://nubisco.io"
-  version "0.1.40"
+  version "0.1.41"
 
   on_macos do
     on_arm do
-      url "https://downloads.nubisco.io/alter/v0.1.40/alter-0.1.40-darwin-arm64.tar.gz"
-      sha256 "8e6876a0dbd80bf0ae42301a20d89364e9003e91838505ac16165d30f277b830"
+      url "https://downloads.nubisco.io/alter/v0.1.41/alter-0.1.41-darwin-arm64.tar.gz"
+      sha256 "86c02151ba0ac13d4064b2f216ffe99b6877ad205dfca32c594492b641173573"
     end
   end
   on_linux do
     on_arm do
-      url "https://downloads.nubisco.io/alter/v0.1.40/alter-0.1.40-linux-arm64.tar.gz"
-      sha256 "99b1eb914afda4396ae8528886c60dd1ae98a42d6be8a57164c9065779b398f3"
+      url "https://downloads.nubisco.io/alter/v0.1.41/alter-0.1.41-linux-arm64.tar.gz"
+      sha256 "4e3ec091524a6796325defe5589d722859a2751a9d6cb040e87d3ddf5498e4c8"
     end
     on_intel do
-      url "https://downloads.nubisco.io/alter/v0.1.40/alter-0.1.40-linux-x64.tar.gz"
-      sha256 "d982c3d66430238ae8e61c726586e2fb801dcb52e28b8fa0a309aaa6cace62fe"
+      url "https://downloads.nubisco.io/alter/v0.1.41/alter-0.1.41-linux-x64.tar.gz"
+      sha256 "f4f3b32e62a453506d28e6642485c846e5cf215848df410e5d4882115579a850"
     end
   end
 
